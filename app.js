@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-kelvin:okus4baba@cluster0-todolist.56qrhmz.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://admin-kelvin:****4****@cluster0-todolist.56qrhmz.mongodb.net/todolistDB");
 
 // ***MONGO SETUP***
 
